@@ -36,7 +36,7 @@ function updateImages(sections, idx, imagesLength, sliderType) {
             if (image) {
                 let imageFolder = getImageFolder(idx, sliderType);
                 let imageFileName = getImageFileName(i, sliderType);
-                image.src = `/static/images/${imageFolder}/${imageFileName}`;
+                image.src = `./static/images/${imageFolder}/${imageFileName}`;
             }
         }
     }
